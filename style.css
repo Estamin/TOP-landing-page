@@ -4,7 +4,11 @@ body {
     flex-direction: column;
 }
 
-img {
+/* .dog1 and .dog2 are images selectors */
+.dog1 {
+    width: 200px;
+}
+.dog2 {
     width: 300px;
 }
 
@@ -23,3 +27,13 @@ li {
     padding: 0 10px;
 }
 
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+header, .section-1, .section-2, .section-3, footer {
+    padding: 20px;
+    border: 2px solid red;
+}
