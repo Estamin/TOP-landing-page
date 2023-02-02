@@ -4,6 +4,17 @@ body {
     flex-direction: column;
 }
 
+header, .section-1, .section-2, .section-3, footer {
+    padding: 20px;
+    border: 2px solid red;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+}
+
+/* HEADER SECTION */
 /* .dog1 and .dog2 are images selectors */
 .dog1 {
     width: 200px;
@@ -12,10 +23,9 @@ body {
     width: 350px;
 }
 
-header {
+.upper-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 ul {
@@ -27,19 +37,21 @@ li {
     padding: 0 10px;
 }
 
-.section-1 {
+.lower-header {
     display: flex;
     justify-content: space-between;
     align-items: center;  
 }
 
-.section-2 {
+/* SECTION 1 */
+
+.section-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-2-header {
+.section-1-header {
     margin-bottom: 10px;
 }
 
@@ -70,11 +82,27 @@ li {
     border-radius: 15px;
 }
 
+/* SECTION 2 */
+
 .quotation-author {
     text-align: right;
 }
 
-header, .section-1, .section-2, .section-3, footer {
-    padding: 20px;
-    border: 2px solid red;
+/* SECTION 3 */
+
+.section-3 {
+    display: flex;
+}
+
+.section-3-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
 }
