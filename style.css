@@ -47,6 +47,17 @@ li {
     display: flex;
     text-align: center;
     gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-1-container,
+.card-2-container,
+.card-3-container,
+.card-4-container {
+    height: auto;
+    width: 150px;
+    border: 2px red solid;
+
 }
 
 .card-1,
@@ -59,7 +70,9 @@ li {
     border-radius: 15px;
 }
 
-.card
+.quotation-author {
+    text-align: right;
+}
 
 header, .section-1, .section-2, .section-3, footer {
     padding: 20px;
