@@ -109,9 +109,10 @@ li {
 
 /* SECTION 3 */
 
-.section-3 {
+.section-3-container {
     display: flex;
     margin: 50px;
+    border: 2px red solid;
 }
 
 .section-3-right {
