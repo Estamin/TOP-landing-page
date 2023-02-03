@@ -5,7 +5,7 @@ body {
 }
 
 header, .section-1, .section-2, .section-3, footer {
-    padding: 20px;
+    padding: 50px 200px;
     border: 2px solid red;
 }
 
@@ -76,13 +76,16 @@ li {
 }
 
 .section-1-header {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .cards-container {
     display: flex;
     text-align: center;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -92,8 +95,6 @@ li {
 .card-4-container {
     height: auto;
     width: 150px;
-    border: 2px red solid;
-
 }
 
 .card-1,
@@ -102,7 +103,7 @@ li {
 .card-4 {
     height: 150px;
     width: 150px;
-    background-color: yellow;
+    border: 2px solid blue;
     border-radius: 15px;
 }
 
