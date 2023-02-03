@@ -13,29 +13,29 @@ header,
 footer {
     background-color: #1F2937;
 }
+
 button {
     height: 40px;
     width: 100px;
+    border-radius: 10px;
 }
 
 /* HEADER SECTION */
 
-.dog1 { /*image selector*/
-    width: 200px;
-}
 
 header {
     font-size: 18px;
     color: #F9FAF8
 }
 
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 800;
-}
-
-.dog2 { /*image selector*/
-    width: 350px;
 }
 
 .upper-header {
@@ -56,6 +56,15 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;  
+}
+
+.dog { /*image selector*/
+    width: 350px;
+}
+
+.header-button {
+    background-color: #3882F6;
+    color: white;
 }
 
 /* SECTION 1 */
