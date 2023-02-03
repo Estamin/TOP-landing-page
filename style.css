@@ -99,6 +99,10 @@ li {
 
 /* SECTION 2 */
 
+.section-2 {
+    padding: 100px;
+}
+
 .quotation-author {
     text-align: right;
 }
@@ -107,6 +111,7 @@ li {
 
 .section-3 {
     display: flex;
+    margin: 50px;
 }
 
 .section-3-right {
