@@ -9,17 +9,32 @@ header, .section-1, .section-2, .section-3, footer {
     border: 2px solid red;
 }
 
+header,
+footer {
+    background-color: #1F2937;
+}
 button {
     height: 40px;
     width: 100px;
 }
 
 /* HEADER SECTION */
-/* .dog1 and .dog2 are images selectors */
-.dog1 {
+
+.dog1 { /*image selector*/
     width: 200px;
 }
-.dog2 {
+
+header {
+    font-size: 18px;
+    color: #F9FAF8
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.dog2 { /*image selector*/
     width: 350px;
 }
 
