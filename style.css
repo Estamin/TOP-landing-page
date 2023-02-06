@@ -111,6 +111,12 @@ li {
 
 .section-2 {
     padding: 100px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+
 }
 
 .quotation-author {
