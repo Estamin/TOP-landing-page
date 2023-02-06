@@ -40,6 +40,7 @@ h1 {
 .upper-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -58,7 +59,7 @@ li {
 }
 
 .lower-header-left {
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .dog { /*image selector*/
@@ -113,7 +114,7 @@ li {
 /* SECTION 2 */
 
 .section-2 {
-    padding: 100px;
+    padding: 100px 300px;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
@@ -130,12 +131,16 @@ li {
 
 .section-3-container {
     display: flex;
-    padding: 20px;
+    padding: 50px ;
     margin: 50px;
     border-radius: 10px;
     background-color: #3882F6;
     color: whitesmoke;
 
+}
+
+.section-3-left > p {
+    padding-right: 20px;
 }
 
 .section-3-right {
