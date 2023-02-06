@@ -57,6 +57,10 @@ li {
     align-items: center;  
 }
 
+.lower-header-left {
+    padding-right: 20px;
+}
+
 .dog { /*image selector*/
     width: 350px;
 }
