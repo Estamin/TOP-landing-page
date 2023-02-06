@@ -6,7 +6,6 @@ body {
 
 header, .section-1, .section-2, .section-3, footer {
     padding: 50px 200px;
-    border: 2px solid red;
 }
 
 header,
@@ -129,7 +128,6 @@ li {
     display: flex;
     padding: 20px;
     margin: 50px;
-    border: 2px red solid;
     border-radius: 10px;
     background-color: #3882F6;
     color: whitesmoke;
@@ -153,4 +151,5 @@ li {
 
 footer {
     text-align: center;
+    color: whitesmoke;
 }
