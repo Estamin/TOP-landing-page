@@ -21,7 +21,6 @@ button {
 
 /* HEADER SECTION */
 
-
 header {
     font-size: 18px;
     color: #F9FAF8
@@ -49,21 +48,21 @@ ul {
 }
 
 li {
-    padding: 0 0 0 10px;
+    padding: 0 0 0 40px;
 }
 
 .lower-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
 .lower-header-left {
     padding-right: 50px;
 }
 
-.dog { /*image selector*/
-    width: 350px;
+.dog {
+    width: 250px;
+    height: 250px;
 }
 
 .header-button {
