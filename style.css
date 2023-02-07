@@ -4,7 +4,11 @@ body {
     flex-direction: column;
 }
 
-header, .section-1, .section-2, .section-3, footer {
+header,
+.section-1,
+.section-2,
+.section-3,
+footer {
     padding: 50px 200px;
 }
 
@@ -19,7 +23,7 @@ button {
     border-radius: 10px;
 }
 
-/* HEADER SECTION */
+/* HEADER */
 
 header {
     font-size: 18px;
