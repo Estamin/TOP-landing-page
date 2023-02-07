@@ -85,25 +85,19 @@ li {
     color: #1F2937;
 }
 
-.cards-container {
+.all-cards-container {
     display: flex;
     text-align: center;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-.card-1-container,
-.card-2-container,
-.card-3-container,
-.card-4-container {
+.card-container {
     height: auto;
     width: 150px;
 }
 
-.card-1,
-.card-2,
-.card-3,
-.card-4 {
+.card {
     height: 150px;
     width: 150px;
     border: 2px solid blue;
